@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands | Pythonball</title>
+</head>
+<body>
+    <h1><pre>echo</pre></h1>
+        <h2>Normal Behavior</h2>
+            <pre>echo &gt;*> &gt;*> &gt;*> ...</pre> - The arguments are cast to strings and concatenated, then sent in the same channel the command was invoked from.
+            <pre>echo &gt;channel> &gt;*> &gt;*> &gt;*> ...</pre> - The arguments are cast to strings and concatenated, then sent in the specified channel.
+        <h2>Pipe Behavior</h2>
+            <pre>piped : string</pre> - The piped value is echoed, regardless of any arguments given.
+</body>
+</html>
